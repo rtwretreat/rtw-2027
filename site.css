@@ -110,3 +110,27 @@ th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; v
 th { background: var(--bg); }
 .contacts { list-style: none; padding-left: 0; }
 .contacts li { margin-bottom: 12px; }
+
+/* FAQ page */
+.faq-jump {
+  margin: 20px 0 0;
+  padding: 16px 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.faq-jump h2 { margin: 0 0 10px; font-size: 1.05rem; }
+.faq-jump ol { margin: 0; padding-left: 1.2rem; }
+.faq-jump li { margin-bottom: 6px; }
+.faq-list { margin-top: 28px; padding: 0; list-style: none; }
+.faq-item {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 16px;
+}
+.faq-item:last-child { border-bottom: none; }
+.faq-item h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.faq-item p { margin: 0 0 10px; }
+.faq-item p:last-child { margin-bottom: 0; }
+.back-to-top { font-size: 0.9rem; }
+.evolving-note { color: var(--muted); font-size: 0.9rem; margin: 4px 0 0; }
